@@ -1,0 +1,85 @@
+/* Animation Ketframes*/
+@keyframes fadeinphoto{
+0%{opacity:0;}
+50%{opacity:1;}
+100%{opacity:0;}
+}
+
+@-moz-keyframes fadeinphoto{
+0%{opacity:0;}
+50%{opacity:1;}
+A100%{opacity:0;}
+}
+
+@-webkit-keyframes fadeinphoto{
+0%{opacity:0;}
+50%{opacity:1;}
+100%{opacity:0;}
+}
+
+@-o-keyframes fadeinphoto{
+0%{opacity:0;}
+50%{opacity:1;}
+100%{opacity:0;}
+}
+
+.photo1{
+  opacity:0;
+  animation: fadeinphoto 7s 1;
+  -moz-animation: fadeinphoto 7s 1;
+  -webkit-animation: fadeinphoto 7s 1;
+  -o-animation: fadeinphoto 7s 1;
+  float:left;
+  position:relative;
+  top:0px;
+  z-index:1;
+}
+
+.photo2{
+  opacity:0;
+  animation: fadeinphoto 7s 5s 1;
+  -moz-animation: fadeinphoto 7s 5s 1;
+  -webkit-animation: fadeinphoto 7s 5s 1;
+  -o-animation: fadeinphoto 7s 5s 1;
+  float:left;
+  position:relative;
+  top:0px;
+  z-index:1;
+}
+
+.photo3{
+  opacity:0;
+  animation: fadeinphoto 7s 10s 1;
+  -moz-animation: fadeinphoto 7s 10s 1;
+  -webkit-animation: fadeinphoto 7s 10s 1;
+  -o-animation: fadeinphoto 7s 10s 1;
+  float:left;
+  position:relative;
+  top:0px;
+  z-index:1;
+}
+
+.photo4{
+  opacity:0;
+  animation: fadeinphoto 7s 15s 1;
+  -moz-animation: fadeinphoto 7s 15s 1;
+  -webkit-animation: fadeinphoto 7s 15s 1;
+  -o-animation: fadeinphoto 7s 15s 1;
+  float:left;
+  position:relative;
+  top:0px;
+  z-index:1;
+}
+
+.photo5{
+  opacity:0;
+  animation: fadeinphoto 7s 20s 1;
+  -moz-animation: fadeinphoto 7s 20s 1;
+  -webkit-animation: fadeinphoto 7s 20s 1;
+  -o-animation: fadeinphoto 7s 20s 1;
+  float:left;
+  position:relative;
+  top:0px;
+  z-index:1;
+}
+

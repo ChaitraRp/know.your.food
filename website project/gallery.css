@@ -1,0 +1,336 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#bgimage {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.heading {
+  color:white;
+  font-family: 'Playball', cursive;
+  background: rgba(255,204,153,.3);
+  border: 1px solid #000;
+  text-align:center;
+  font-size:20px;
+  width:100%;
+}
+
+
+.wrap {
+  font: normal 1em/1.3em arial;
+  background:#000000;
+  color:#ffffff;
+  position:absolute;
+  bottom:0;
+  left:0;
+  text-align:center;
+  width:100%;
+  opacity:.75;
+  filter:alpha(opacity=85);
+}
+ 
+.pic {
+  border: 10px solid #fff; 
+  float: left;
+  height: 285px;
+  width: 285px;
+  margin: 20px;
+  overflow: hidden;
+  
+}
+
+.text {
+  float:right;
+  color:white;
+}
+
+.shrink { position:relative; float:left;}
+
+.shrink img {
+  height: 400px;
+  width: 400px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.shrink img:hover {
+  width: 300px;
+  height: 300px;
+}
+
+
+.tiltleft {
+   position:relative; 
+   float:left;
+   height:285px;
+   width:285px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.tiltleft:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.tiltright {
+   position:relative; 
+   float:left; 
+   height:285px;
+   width:285px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.tiltright:hover {
+  -webkit-transform: rotate(10deg);
+     -moz-transform: rotate(10deg);
+       -o-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+.grow { position:relative; float:left;}
+.grow img {
+  height: 300px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 500px;
+  height: 500px;
+}
+
+.leftsidepan {position:relative;float:left;}
+
+.leftsidepan img {
+  height:500px;
+  width:500px;
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+
+.leftsidepan img:hover {
+  margin-left: -230px;
+}
+
+.color { position:relative; float:left;}
+
+.color img{
+  border: 10px solid #fff; 
+  float: left;
+  height:1000px;
+  width: 1300px;
+  margin: 20px;
+  overflow: hidden; 
+  text-align:center;
+   
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+  filter: gray alpha(opacity=50);
+  -webkit-filter: grayscale(50%);
+
+}
+ 
+.color:hover {
+  -webkit-filter: grayscale(0%);
+}
+
+.color1 { position:relative; float:left;}
+
+.color1 img {
+  border: 10px solid #fff; 
+  float: left;
+  height:600px;
+  width: 900px;
+  margin: 20px;
+  overflow: hidden; 
+  text-align:center;
+  
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+  filter: gray alpha(opacity=50);
+  -webkit-filter: grayscale(50%);
+
+}
+ 
+.color1 img:hover {
+  -webkit-filter: grayscale(0%);
+}
+
+.color2 { position:relative; float:left;}
+
+.color2 img {
+  border: 10px solid #fff; 
+  float: left;
+  height:600px;
+  width: 320px;
+  margin: 20px;
+  overflow: hidden; 
+  text-align:center;
+ 
+     -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+  filter: gray alpha(opacity=50);
+  -webkit-filter: grayscale(50%);
+
+}
+ 
+.color2:hover {
+  -webkit-filter: grayscale(0%);
+}
+
+.pic2 {
+  position:relative;
+  border: 10px solid #fff; 
+  float: left;
+  height:500px;
+  width: 700px;
+  margin: 20px;
+  overflow: hidden; 
+}
+
+.zoomout { position:relative; float:left;}
+
+.zoomout img {
+  height:1000px;
+  width:1300px; 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.zoomout img:hover {
+  width: 700px;
+  height: 500px;
+}
+
+.pic3 {
+  position:relative;
+  border: 10px solid #fff; 
+  float: left;
+  height:500px;
+  width: 500px;
+  margin: 20px;
+  overflow: hidden; 
+}
+
+.morph { position:relative; float:left;}
+
+.morph img{
+  height:500px;
+  width:500px; 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.morph :hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.focus { position:relative; float:left;}
+
+.focus img{
+  height:300px;
+  width:300px;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.focus:hover {
+  border: 20px solid #000;
+  border-radius: 50%;
+}
+
+.pic4 {
+  border: 10px solid #fff; 
+  position:relative;
+  float: left;
+  height:285px;
+  width: 585px;
+  margin: 20px;
+  overflow: hidden; 
+  text-align:center;
+}
+
+.last { position:relative; float:left;}
+
+.last img{
+  height:585px;
+  width: 900px;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.last img:hover {
+  height:385px;
+  width: 585px;
+}

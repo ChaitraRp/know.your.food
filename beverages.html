@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Beverages - Know your food</title>
+		<link rel="icon" type="image/png" href="background/food.png">
+
+		<!-- google fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Orienta' rel='stylesheet' type='text/css'>
+
+		<!-- stylesheet -->
+		<link type="text/css" href="css/beverages.css" rel="stylesheet"/>
+
+		<!-- javascript -->
+		<script language="JavaScript" src="js/script.js">
+		</script>
+
+	</head>
+
+    <body>
+		<header>
+			<h2>Beverages</h2>
+        </header>
+
+	<div class="example">
+    <div class="menuholder">
+        <ul class="menu slide">
+            <li><a href="index.html" class="red">HOME</a>
+			<div class="subs">
+	                <dl>
+                       <dt>Home Page</dt>
+                       <dd></dd>
+					</dl>
+			</div>
+			</li>
+
+            <li><a href="#" class="green">NON-ALCOHOLIC</a>
+                <div class="subs">
+                    <dl>
+                        <dt>HOT BEVERAGE</dt>
+						<dd><a href="#" onclick="showhide('tea');">Tea</a></dd>
+						<dd><a href="#" onclick="showhide('coffee');">Coffee</a></dd>
+                        <dd><a href="#" onclick="showhide('hotchocolate');">Hot Chocolate</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>COLD BEVERAGE</dt>
+						<dd><a href="#" onclick="showhide('milkshake');">Milk Shake</a></dd>
+						<dd><a href="#" onclick="showhide('icedtea');">Iced Tea</a></dd>
+                        <dd><a href="#" onclick="showhide('coldcoffee');">Cold Coffee</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>FRUIT JUICE</dt>
+						<dd><a href="#" onclick="showhide('mangojuice');">Mango Juice</a></dd>
+						<dd><a href="#" onclick="showhide('lemonade');">Lemonade</a></dd>
+                        <dd><a href="#" onclick="showhide('orangejuice');">Orange Juice</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>MOCKTAILS</dt>
+						<dd><a href="#" onclick="showhide('shirleytemple');">Shirley Temple</a></dd>
+						<dd><a href="#" onclick="showhide('cinderella');">Cinderella</a></dd>
+                        <dd><a href="#" onclick="showhide('virginmary');">Virgin Mary</a></dd>
+                    </dl>
+                </div>
+            </li>
+            <li><a href="#" class="orange">ALCOHOL BASED</a>
+                <div class="subs">
+                    <dl>
+                        <dt>WINE</dt>
+						<dd><a href="#" onclick="showhide('whitewine');">White Wine</a></dd>
+						<dd><a href="#" onclick="showhide('redwine');">Red Wine</a></dd>
+                        <dd><a href="#" onclick="showhide('rosewine');">Rose Wine</a></dd>
+                        <dd><a href="#" onclick="showhide('sparklingwine');">Sparkling Wine</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>BEER</dt>
+						<dd><a href="#" onclick="showhide('ale');">Ale</a></dd>
+						<dd><a href="#" onclick="showhide('draughtbeer');">Draught Beer</a></dd>
+                        <dd><a href="#" onclick="showhide('maltbeer');">Malt Beer</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>WHISKY</dt>
+						<dd><a href="#" onclick="showhide('american');">American Whiskey</a></dd>
+						<dd><a href="#" onclick="showhide('indian');">Indian Whisky</a></dd>
+                        <dd><a href="#" onclick="showhide('scotch');">Scotch Whisky</a></dd>
+                    </dl>
+					<dl>
+                        <dt>VODKA</dt>
+						<dd><a href="#" onclick="showhide('plainvodka');">Plain Vodka</a></dd>
+						<dd><a href="#" onclick="showhide('flavouredvodka');">Flavoured Vodka</a></dd>
+                    </dl>
+                </div>
+            </li>
+            <li><a href="#" class="blue">COCKTAILS</a>
+                <div class="subs">
+                    <dl>
+                        <dt>VODKA BASED</dt>
+						<dd><a href="#" onclick="showhide('applemartini');">Apple Martini</a></dd>
+						<dd><a href="#" onclick="showhide('bluelagoon');">Blue Lagoon</a></dd>
+                        <dd><a href="#" onclick="showhide('kamikaze');">Kamikaze</a></dd>
+                        <dd><a href="#" onclick="showhide('sexonthebeach');">Sex on the Beach</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>TEQUILA BASED</dt>
+						<dd><a href="#" onclick="showhide('margarita');">Margarita</a></dd>
+						<dd><a href="#" onclick="showhide('tequilasunrise');">Tequila Sunrise</a></dd>
+                        <dd><a href="#" onclick="showhide('tequilashot');">Tequila Shot</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>MIXED BASED</dt>
+						<dd><a href="#" onclick="showhide('longislandicedtea');">Long Island Iced Tea</a></dd>
+						<dd><a href="#" onclick="showhide('adiosmotherfucker');">Adios Motherfucker</a></dd>
+                        <dd><a href="#" onclick="showhide('swimmingpool');">Swimming Pool</a></dd>
+                    </dl>
+                </div>
+            </li>
+			<li><a href="#" class="purple">SHOOTERS</a>
+                <div class="subs">
+                    <dl>
+						<dd><a href="#" onclick="showhide('stoplight');">Stoplight</a></dd>
+                        <dd><a href="#" onclick="showhide('redheadedslut');">Red Headed Slut</a></dd>
+						<dd><a href="#" onclick="showhide('redwhiteblue');">Red, White & Blue</a></dd>
+                    </dl>
+                    <dl>
+						<dd><a href="#" onclick="showhide('tequilaboomboom');">Tequila Boom Boom</a></dd>
+                        <dd><a href="#" onclick="showhide('woowoo');">Woo Woo</a></dd>
+                    </dl>
+                </div>
+            </li>
+        </ul>
+        <div class="back"></div>
+    </div>
+    <div style="clear:both"></div>
+</div>
+
+	<!-- description for selected items from the menu -->
+		<div class="scrollable" id="tea">
+			<img src="images/tea.jpg" alt="image of tea"/>
+			<h2>Tea</h2>			
+			<p>Tea is an aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the tea plant, Camellia sinensis. After water, tea is the most widely consumed beverage in the world. It has a cooling, slightly bitter, and astringent flavour that many people enjoy.
+Tea likely originated in China as a medicinal drink. The phrase "herbal tea" usually refers to infusions of fruit or herbs made without the tea plant, such as rosehip tea, chamomile tea, or rooibos tea.<br/><br/><span style="font-size:20px">Contents:</span><br/><br/>Tea contains catechins, a type of antioxidant. In a freshly picked tea leaf, catechins can comprise up to 30% of the dry weight.Tea also contains the amino acid L-theanine which modulates caffeine's psychoactive effect and contributes tea's umami taste.Tea also contains small amounts of theobromine and theophylline, which are stimulants and xanthines similar to caffeine.<br/><br/><span style="font-size:20px">Health effects:</span><br/><br/>Tea contains a large number of potentially bioactive chemicals, including flavinoids, amino acids, vitamins, caffeine and several polysaccharides, and a variety of health effects have been proposed and investigated. It has been suggested that green and black tea may protect against cancer, though the catechins found in green tea are thought to be more effective in preventing certain obesity-related cancers such as liver and colorectal while both green and black tea may protect against cardiovascular disease.<br/><br/>Numerous recent epidemiological studies have been conducted to investigate the effects of green tea consumption on the incidence of human cancers. These studies suggest significant protective effects of green tea against oral, pharyngeal, oesophageal, prostate, digestive, urinary tract, pancreatic, bladder, skin, lung, colon, breast, and liver cancers, and lower risk for cancer metastasis and recurrence. Preliminary lab studies show that “a wide variety of commercial teas appear to either inactivate or kill viruses,” reports Reuters Health Information. Several types of green and black teas, regular and iced, were tested on animal tissues infected with such viruses as herpes simplex 1 and 2 and the T1 (bacterial) virus.</p>
+		</div>
+
+		<div class="scrollable" id="coffee">
+			<img src="images/coffee.jpg" alt="image of coffee"/>
+			<h2>Coffee</h2>
+			<p>Coffee is a brewed beverage prepared from the roasted seeds of several species of an evergreen shrub of the genus Coffea. The two most common sources of coffee beans are the highly regarded Coffea arabica, and the "robusta" form of the hardier Coffea canephora. The latter is resistant to the coffee leaf rust (Hemileia vastatrix), but has a more bitter taste. Coffee plants are cultivated in over 70 countries, primarily in equatorial Latin America, Southeast Asia, Maldives, and Africa. Once ripe, coffee "berries" are picked, processed, and dried to yield the seeds inside. The seeds are then roasted to varying degrees, depending on the desired flavor, before being ground and brewed to create coffee.<br/><br/>Coffee is slightly acidic (pH 5.0–5.1) and can have a stimulating effect on humans because of its caffeine content. It is one of the most consumed drinks in the world. It can be prepared and presented in a variety of ways. Many studies have examined the health effects of coffee, and whether the overall effects of coffee consumption are positive or negative has been widely disputed. The majority of recent research suggests that moderate coffee consumption is benign or mildly beneficial in healthy adults. However, coffee can worsen the symptoms of some conditions, such as anxiety, largely due to the caffeine and diterpenes it contains.<br/><br/><span style="font-size:20px">Health benefits:</span><br/><br/>Coffee consumption has generally been shown to have little or no impact on cancer development. Other studies suggest coffee consumption reduces the risk of prostate cancer, Alzheimer's disease, dementia, Parkinson's disease, heart disease, diabetes mellitus type 2, non-alcoholic fatty liver disease, cirrhosis, and gout. It may increase the risk of acid reflux and associated diseases. The presence of antioxidants in coffee has been shown to prevent free radicals from causing cell damage. Evidence suggests that roasted coffee has a stronger antioxidant effect than green coffee.<br/><br/><span style="font-size:20px">Health risks:</span><br/><br/>Excessive amounts of coffee can cause very unpleasant and even life-threatening adverse effects. Coffee's adverse effects are more common when taken in excess. Many of coffee's health risks are due to its caffeine content and can therefore be avoided by drinking decaffeinated coffee. Coffee consumption can lead to iron deficiency anemia by interfering with iron absorption, especially in mothers and infants.Caffeine can cause anxiety, especially in high doses and in those with pre-existing anxiety disorders.</p>
+		</div>
+
+		<div class="scrollable" id="hotchocolate">
+			<img src="images/hotchocolate.jpg" alt="image of hot chocolate"/>
+			<h2>Hot Chocolate</h2>
+			<p>Hot chocolate (also known as hot cocoa) is a heated beverage typically consisting of shaved chocolate, melted chocolate or cocoa powder, heated milk or water, and sugar.<br/><br/>Americans use the terms "hot chocolate" and "hot cocoa" interchangeably. In other places, a distinction is made between "hot cocoa", made from powder made by removing most of the rich cocoa butter from the ground cacao beans, and "hot chocolate", made directly from bar chocolate, which already contains cocoa, sugar, and cocoa butter. Thus, the major difference between the two is the cocoa butter, the absence of which makes hot cocoa significantly lower in fat than hot chocolate while still preserving all the antioxidants found in chocolate. Hot chocolate can be made with dark, semisweet, or bittersweet chocolate chopped into small pieces and stirred into milk with the addition of sugar. American instant hot cocoa powder often includes powdered milk or other dairy ingredients so it can be made without using milk. In the United Kingdom, "hot chocolate" is a sweet chocolate drink made with hot milk or water, and powder containing chocolate, sugar, and powdered milk. "Cocoa" usually refers to a similar drink made with just hot milk and cocoa powder, then sweetened to taste with sugar.</p>
+		</div>
+
+		<div class="scrollable" id="milkshake">
+			<img src="images/milkshake.jpg" alt="image of milkshake"/>
+			<h2>Milkshake</h2>
+			<p>A milkshake is a sweet, cold beverage which is usually made from milk, ice cream or iced milk, and flavorings or sweeteners such as fruit syrup or chocolate sauce. It originated from United States. Hand-blended milkshakes can be made from any flavor of ice cream, and additional flavorings, such as chocolate syrup and/or malt syrup or malt powder, can be added prior to mixing. This allows a greater variety than is available in machine-made shakes. Some unusual milkshake recipes exclude ice cream. Some U.S. restaurants serve milkshakes with crumbled cookies, candy bar pieces, or alcoholic beverages. The grasshopper milkshake, for example, includes crumbled chocolate cookies, creme de menthe liqueur, and chocolate mint ice cream.
+</p>
+		</div>
+
+		<div class="scrollable" id="icedtea">
+			<img src="images/icedtea.jpg" alt="image of iced tea"/>
+			<h2>Iced Tea</h2>
+			<p>Iced teais a form of cold tea, usually served in a glass with ice. It may or may not be sweetened. Iced tea is also a popular packaged drink. It can be mixed with flavored syrup, with common flavors including lemon, peach, raspberry, lime, passion fruit, strawberry and cherry. While most iced teas get their flavor from tea leaves (Camellia sinensis), tisanes are also sometimes served cold and referred to as iced tea.<br/><br/>Drinking a glass of iced tea during the day can take care of most of our problems. Iced tea is rich in vitamins, minerals and anti-oxidants that keep a check on calories consumed during the day. A recent medical study revealed that iced tea has the capability to prevent cavities too! </p>
+		</div>
+
+		<div class="scrollable" id="coldcoffee">
+			<img src="images/coldcoffee.jpg" alt="image of cold coffee"/>
+			<h2>Cold Coffee</h2>
+			<p>Iced coffee is a cold variant of coffee. The iced latte and iced mocha are examples. A method of preparing such drinks is to make a small quantity of strong, hot espresso, dissolving the required sweetener/flavorings in the hot liquid and then pouring this directly into a cup of ice cold milk. Pre-packaged iced coffee is available as a grocery item in several countries.<br/><br/>Iced coffee may be served already chilled, or poured hot over ice. Because sugar does not dissolve readily into cold liquids, it must be added either directly to the hot base, or to the finished product in the form of syrup. Iced coffee in India usually consists of instant coffee mixed with cold/frozen milk in a blender, producing a thin, coffee-flavored smoothie or often mixed with vanilla for icy thick experience. South Australians, especially in Adelaide, are also known for this. A more upscale version is popular in the espresso bar chains Barrista and Cafe Coffee Day. This is made with a shot of espresso and cold milk, similar to a latte.</p>
+		</div>
+
+		<div class="scrollable" id="mangojuice">
+			<img src="images/mangojuice.jpg" alt="image of mango juice"/>
+			<h2>Mango Juice</h2>
+			<p>Mango is known as the king of fruits. Mango juice acts as a cooling and refreshing agent for mind and body. Mango juice is prepared by adding freshly taken out mango pulp and sugar to a mixer and mixing them well. Clear juice is squeezed out and served. Tastes best when chilled. Among the lesser known mango juice benefits is the fact that, the fruit has anti cancer properties.<br/><br/>The fruit has phytochemical content which is said to have chemopreventive properties. It thereby helps reduce the development of cancer cells within the body. Mangoes are also highly regarded for their high iron content and are regularly used in a number of home remedy for anemia. The nutrients contained in mango juice include significant sources of vitamin A and vitamin C. Both of these help to regulate the enzymes, as well as metabolic processes. It thereby allows the body to manage appetite much better.</p>
+		</div>
+
+		<div class="scrollable" id="lemonade">
+			<img src="images/lemonade.jpg" alt="image of lemonade"/>
+			<h2>Lemonade</h2>
+			<p>Lemonade is a lemon-flavored drink. In different parts of the world, the name has different meanings. In North America, lemonade is usually made from lemon juice, water, and sugar and is often home-made. In the United Kingdom and some other English-speaking countries, lemonade is a commercially-produced, lemon-flavored, carbonated, sweetened soft drink (known as lemon-lime in North America).<br/><br/>Lemonade is an uncarbonated drink made from squeezed lemon juice, water, and sugar. Slices of lemon are sometimes added to a pitcher as a garnish and further source of flavoring. It can be made fresh from fruit, reconstituted from frozen juice, dry powder, or liquid concentrate, and colored in a variety of shades. It can also be frozen into a slush or Popsicle-type dessert. Artificially sweetened and artificially flavored versions are also popular.</p>
+		</div>
+
+		<div class="scrollable" id="orangejuice">
+			<img src="images/orangejuice.jpg" alt="image of orange juice"/>
+			<h2>Orange Juice</h2>
+			<p>Orange juice refers to the juice of oranges. It is made by squeezing the fresh fruit, by drying and later rehydrating the juice, or by concentration of the juice and later adding water to the concentrate. It is known for its health benefits, particularly its high concentration of vitamin C. It comes in several different varieties, including blood orange. In American English, the slang term O.J. may also be used to refer to orange juice.<br/><br/>A cup serving of raw, fresh orange juice, amounting to 248 g or 8 ounces, has 124 mg of vitamin C (>100% RDI). It has 20.8 g of sugars and has 112 Calories. It also supplies potassium, thiamin, and folate. Citrus juices contain flavonoids (especially in the pulp), that may have health benefits. Orange juice is also a source of the antioxidant hesperidin. Due to its citric acid content, orange juice is acidic, with a typical pH of around 3.5.</p>
+		</div>
+
+		<div class="scrollable" id="shirleytemple">
+			<img src="images/shirleytemple.jpg" alt="image of shirley temple"/>
+			<h2>Shirley Temple</h2>
+			<p>A Shirley Temple is a non-alcoholic mixed drink invented in the 1930s by a bartender at Chasen's, a restaurant in Beverly Hills, California, to serve then child actress Shirley Temple. It is made with two parts: ginger ale and a splash of grenadine, garnished with a maraschino cherry. Modern Shirley Temples are made with lemon-lime soda, which is occasionally substituted in part, or in whole, for ginger ale. This is a drink that you can order almost anywhere for yourself or the kids because almost every bartender knows it.</p>
+		</div>
+
+		<div class="scrollable" id="cinderella">
+			<img src="images/cinderella.jpg" alt="image of cinderella"/>
+			<h2>Cinderella</h2>
+			<p>Moctails are refreshing alternatives to cocktails and they come with amusing names. The origin of the name Cinderella for this moctail is not known. Cinderella mocktail is perfect for parties. This drink contains mixture of freshly squeezed out orange juice, pineapple juice, lemon juice, sugar syrup. Some versions also contain additional grenadine syrup and angostura aromatic bitters. This mocktail is served in an ice filed glass topped with soda water.</p>
+		</div>
+
+		<div class="scrollable" id="virginmary">
+			<img src="images/virginmary.jpg" alt="image of virgin mary"/>
+			<h2>Virgin Mary</h2>
+			<p>As a non-alcoholic version of the Bloody Mary, the Virgin Mary is a tomato juice drink that you can drink anytime. It's the ultimate spicy drink for healthy breakfast or brunch. Virgin Mary is a mixture of tomato juice, two dash of lemon juice, a pinch of celery salt, peppers, Worcestershire sauce and Tabasco sauce as a flovouring agent. All these ingredients are built into a highball glass with ice cubes and garnished with celery stalk.</p>
+		</div>
+
+		<div class="scrollable" id="whitewine">
+			<img src="images/whitewine.jpg" alt="image of white wine"/>
+			<h2>White Wine</h2>
+			<p>White wine is a wine whose color can be straw-yellow, yellow-green, and yellow-gold coloured. White wine's color can be derived from an assortment of grape varieties. White wines are made from the grape juice and grape skin or from just the juice (not the skin) of select red grapes (as in some Champagnes). White wines are often consumed with lighter meals, or as an apéritif. They are more refreshing, lighter in both style and taste than the majority of their red wine counterparts, making them ideal for spring and summer occasions.<br/><br/>White wines beg a different style of wine glass variety from red wines. They are best presented in a smaller bowl glass as opposed to the larger bowl of a red wine glass. Optimum white wine serving temperatures range from 6° to 10°C [42.8°-50°F]. Overall as the serving temperature of white wine decreases the aroma intensity will also decrease.</p>
+		</div>
+
+		<div class="scrollable" id="redwine">
+			<img src="images/redwine.jpg" alt="image of red wine"/>
+			<h2>Red Wine</h2>
+			<p>Red wine is a type of wine made from dark-coloured (black) grape varieties. The actual colour of the wine can range from intense violet, typical of young wines, through to brick red for mature wines and brown for older red wines. The juice from most black grapes is greenish-white; the red colour comes from anthocyan pigments (also called anthocyanins) present in the skin of the grape; exceptions are the relatively uncommon teinturier varieties, which produce a red colored juice. Much of the red-wine production process therefore involves extraction of colour and flavour components from the grape skin.<br/><br/>Red wine, in moderation, has long been thought of as heart healthy. The alcohol and certain substances in red wine called antioxidants may help prevent heart disease by increasing levels of "good" cholesterol and protecting against artery damage.</p>
+		</div>
+
+		<div class="scrollable" id="rosewine">
+			<img src="images/rosewine.jpg" alt="image of rose wine"/>
+			<h2>Rose Wine</h2>
+			<p>Whether it's rosé, rosado (Spain), rosato (Italy) or "blush" - these terms all refer to pink wine. This pink shade can range from a soft, subtle hue to a vibrant, hot pink, depending on the grape used and how long the grape skins were in contact with the juice. Rosés can be made in a sweet, off-dry or bone dry style, with most European rosés being decidedly dry. The flavors of rosé wines tends to be more subtle versions of their red wine varietal counterparts. The fruit expectations lean towards strawberry, cherry, and raspberry with some citrus and watermelon presenting on a regular basis.<br/><br/>There’s a difference between old-world rose and new-world rose wines.  Old-world rose wines tend to be more bone-dry than new-world rose wines. Californian rose wines, for instance, can be almost sweet; they also have very similar characteristics to white wines. It should be noted, however, that there are now some Californian rose winemakers who make fruity, elegant and almost bone-dry rose wines that resemble old-world roses. Sophia by Coppola is just such a wine.<br/><br/>Tip: Rose wines should be consumed when they are young or are 1-3 years old. Good rose champagnes with some age can be a real delight.</p>
+		</div>
+
+		<div class="scrollable" id="sparklingwine">
+			<img src="images/sparklingwine.jpg" alt="image of sparkling wine"/>
+			<h2>Sparkling Wine</h2>
+			<p>Sparkling wine is a wine with significant levels of carbon dioxide in it making it fizzy. The carbon dioxide may result from natural fermentation, either in a bottle, as with the méthode champenoise, in a large tank designed to withstand the pressures involved (as in the Charmat process), or as a result of carbon dioxide injection. Sparkling wine is usually white or rosé but there are many examples of red sparkling wines such as Italian Brachetto and Australian sparkling Shiraz. The sweetness of sparkling wine can range from very dry "brut" styles to sweeter "doux" varieties.<br/><br/>The classic example of a sparkling wine is Champagne, but this wine is exclusively produced in the Champagne region of France. The average bottle of Champagne contains enough carbon dioxide to potentially produce 49 million bubbles. he grapes, most commonly Chardonnay, Pinot noir and Pinot meunier, are used to make several base wines that are assembled together to make Champagne. Each grape adds its own unique imprint to the result. Chardonnay is prized for its finesse and aging ability. Pinot noir adds body and fruit while Pinot meunier contributes substantially to the aroma, adding fruit and floral notes. The majority of Champagnes produced are non-vintage (or rather, multi-vintage) blends. Vintage Champagne, often a house's most prestigious and expensive wine, is also produced, but only in years when the producers feel that the grapes have the complexity and richness to warrant it.</p>
+		</div>
+
+		<div class="scrollable" id="ale">
+			<img src="images/ale.jpg" alt="image of ale"/>
+			<h2>Ale</h2>
+			<p>Ale is a type of beer brewed from malted barley using a warm-fermentation with a strain of brewers' yeast. The yeast will ferment the beer quickly, giving it a sweet, full bodied and fruity taste. Most ales contain hops, which help preserve the beer and impart a bitter herbal flavour that balances the sweetness of the malt.<br/><br/>Ale has often now come to mean a bitter-tasting barley beverage fermented at room temperature.Ale typically has bittering agent(s) to balance the sweetness of the malt and to act as a preservative. Ale was originally bittered with gruit, a mixture of herbs (sometimes spices) which was boiled in the wort prior to fermentation. Later, hops replaced the gruit blend in common usage as the sole bittering agent.Ale, along with bread, was an important source of nutrition in the medieval world, particularly small beer, also known as table beer or mild beer, which was highly nutritious, contained just enough alcohol to act as a preservative, and provided hydration without intoxicating effects.</p>
+		</div>
+
+		<div class="scrollable" id="draughtbeer">
+			<img src="images/draughtbeer.jpg" alt="image of draught beer"/>
+			<h2>Draught Beer</h2>
+			<p>Draught beer, also spelt draft, is beer served from a cask or keg rather than from a bottle or can. Canned draught is beer served from a pressurised container containing a widget. Smooth flow (also known as cream flow, nitrokeg, or just smooth) is the name brewers give to draught beers pressurised with a partial nitrogen gas blend.<br/><br/>Keg beer is a term for beer which is served from a pressurised keg. Keg beer is often filtered and/or pasteurised, both of which are processes that render the yeast inactive. In brewing parlance, a keg is different from a cask. A cask has a tap hole near the edge of the top, and a spile hole on the side used for conditioning the unfiltered and unpasteurised beer. A keg has a single opening in the centre of the top to which a flow pipe is attached. Kegs are artificially pressurised after fermentation with carbon dioxide or a mixture of carbon dioxide and nitrogen gas.</p>
+		</div>
+
+		<div class="scrollable" id="maltbeer">
+			<img src="images/maltbeer.jpg" alt="image of malt beer"/>
+			<h2>Malt Beer</h2>
+			<p>Malt beer is a sweet, low-alcohol beer (0%–1% ABV) that is brewed like regular beer but without fermentation, which is avoided by adding the yeast at about 0° C. It is made from barley malt syrup, sugar, yeast, hops, and water. It is sometimes called "malta" or "wheat soda." It is considered to be nutritious and is sometimes given to nursing mothers. Malt beer is popular in Germany, Austria, Switzerland, and Brazil. German malt beer is called Malzbier. Vitamalz and Karamalz are two popular brands in Germany.<br/><br/>Malt beverage is an American term for both alcohol containing and non-alcoholic fermented beverages, in which the primary ingredient is the grain, or seed of the barley plant, which has been allowed to sprout in a traditional way called "malting" slightly before it is processed. By far, the most predominant malt beverage is beer (naturally fermented barley sugars flavored with hops), of which there are two main styles: ale and lager. A very low alcohol level beverage brewed in this fashion is technically identical to "non-alcoholic beer." Such a beverage may be prepared by using a slightly altered brewing process which yields very little alcohol (technically less than 0.5% by volume). These are called Low-alcohol beers or "near beers".</p>
+		</div>
+
+		<div class="scrollable" id="american">
+			<img src="images/american.jpg" alt="image of american whiskey"/>
+			<h2>American Whiskey</h2>
+			<p>American whiskey is a distilled beverage produced in the United States from a fermented mash of cereal grain.<br/>Some key types listed in the U.S. Code of Federal Regulations are:
+<br/>- Rye whiskey, made from mash that consists of at least 51% rye.
+<br/>- Rye malt whiskey, made from mash that consists of at least 51% malted rye.
+<br/>- Malt whiskey, made from mash that consists of at least 51% malted barley.
+<br/>- Wheat whiskey, made from mash that consists of at least 51% wheat.
+<br/>- Bourbon whiskey, made from mash that consists of at least 51% corn (maize).
+<br/>- Corn whiskey, made from mash that consists of at least 80% corn (maize).<br/><br/>Another important American whiskey labeling is Tennessee whiskey. There are only five brands of Tennessee whiskey that are currently bottled – Jack Daniel's, George Dickel, Benjamin Prichard's, Jailers, and Collier and McKeel. Four of the five brands of currently produced Tennessee whiskey use a production process that involves a filtering stage called the Lincoln County Process, in which the whiskey is filtered through a thick layer of maple charcoal before it is put into casks for aging.
+</p>
+		</div>
+
+		<div class="scrollable" id="indian">
+			<img src="images/indian.jpg" alt="image of indian whisky"/>
+			<h2>Indian Whisky</h2>
+			<p>Distilled alcoholic beverages that are labelled as "whisky" in India are commonly blends based on neutral spirits that are distilled from fermented molasses with only a small portion consisting of traditional malt whisky, usually about 10 to 12 percent. Outside of India, such a drink would more likely be labelled a rum. Ninety percent of the whisky consumed in India is molasses-based, although whisky wholly from malt and other grains is now available.<br/><br/>India has traditionally been thought to lack a domestic drinking culture. In fact, India has a high level of alcohol consumption, to the point where the government has called for mandatory "dry weekends" where alcohol is not purchasable in any market in New Delhi. Brand names of Indian molasses whisky, including Bagpiper, McDowell's No. 1, White & Blue Whisky and MaQintosh suggest that the inspiration behind the Indian whiskies is Scotch whisky, despite these products being produced chiefly from molasses.
+</p>
+		</div>
+
+		<div class="scrollable" id="scotch">
+			<img src="images/scotch.jpg" alt="image of scotch whisky"/>
+			<h2>Scotch Whisky</h2>
+			<p>Scotch whisky (often referred to simply as "Scotch") is malt whisky or grain whisky made in Scotland. All Scotch whisky was originally made from malt barley. Commercial distilleries began introducing whisky made from wheat and rye in the late eighteenth century. Scotch whisky is divided into five distinct categories: single malt Scotch whisky, single grain Scotch whisky, blended malt Scotch whisky (formerly called "vatted malt" or "pure malt"), blended grain Scotch whisky, and blended Scotch whisky.<br/><br/>All Scotch whisky must be aged in oak barrels for at least three years. Any age statement on a bottle of Scotch whisky, expressed in numerical form, must reflect the age of the youngest whisky used to produce that product. A whisky with an age statement is known as guaranteed-age whisky. The majority of grain whisky produced in Scotland goes to make blended Scotch whisky. The average blended whisky is 60%–85% grain whisky. Some higher-quality grain whisky from a single distillery is bottled as single grain whisky.<br/><br/>Blended Scotch whisky constitutes about 90% of the whisky produced in Scotland.Blended Scotch whiskies contain both malt whisky and grain whisky. They were initially created as an alternative to single malt whiskies, which some considered too harsh. Producers combine the various malts and grain whiskies to produce a consistent brand style. Notable blended Scotch whisky brands include Bells, Dewar's, Johnnie Walker, Whyte and Mackay, Cutty Sark, J&B, The Famous Grouse, Ballantine's and Chivas Regal.</p>
+		</div>
+
+		<div class="scrollable" id="plainvodka">
+			<img src="images/plainvodka.jpg" alt="image of plain vodka"/>
+			<h2>Plain Vodka</h2>
+			<p>Vodka is a distilled beverage composed primarily of water and ethanol, sometimes with traces of impurities and flavorings. Vodka is made by the distillation of fermented substances such as grains, potatoes, or sometimes fruits or sugar. Traditionally prepared vodkas had an alcoholic content of 40% by volume. Vodka is traditionally drunk neat in the vodka belt countries of Eastern Europe and around the Baltic Sea. It is also commonly used in cocktails and mixed drinks.<br/><br/><span style="font-size:20px">Distilling and Filtering:</span><br/><br/>A common property of the vodkas produced in the United States and Europe is the extensive use of filtration prior to any additional processing including the addition of flavorants. Filtering is sometimes done in the still during distillation, as well as afterwards, where the distilled vodka is filtered through activated charcoal and other media to absorb trace amounts of substances that alter or impart off-flavors to the vodka. However, this is not the case in the traditional vodka-producing nations, so many distillers from these countries prefer to use very accurate distillation but minimal filtering, thus preserving the unique flavors and characteristics of their products.<br/><br/>The master distiller is in charge of distilling the vodka and directing its filtration, which includes the removal of the "fore-shots", "heads" and "tails". These components of the distillate contain flavor compounds such as ethyl acetate and ethyl lactate (heads) as well as the fusel oils (tails) that impact the usually desired clean taste of vodka. Through numerous rounds of distillation, or the use of a fractioning still, the taste is modified and clarity is increased. In contrast, distillery process for liquors such as whiskey, rum, and baijiu allow portions of the "heads" and "tails" to remain, giving them their unique flavors.<br/><br/>Repeated distillation of vodka will make its ethanol level much higher than is acceptable to most end users, whether legislation determines strength limits or not. Depending on the distillation method and the technique of the stillmaster, the final filtered and distilled vodka may have as much as 95–96% ethanol. As such, most vodka is diluted with water prior to bottling.</p>
+		</div>
+
+		<div class="scrollable" id="flavouredvodka">
+			<img src="images/flavouredvodka.jpg" alt="image of flavoured vodka"/>
+			<h2>Flavoured Vodka</h2>
+			<p>Flavored liquors (also called infused liquors) are alcoholic beverages that have added flavoring and, in some cases, a small amount of added sugar. They are distinct from liqueurs in that liqueurs have a large sugar content and may also contain glycerine. Flavored liquors may have a base of vodka or white rum, both of which have little taste of their own, or they may have a tequila or brandy base. Typically, a fruit extract and, in some cases, sugar syrup are added to the base spirit.<br/><br/>Flavoured vodka - flavors include lemon, lime, lemon-lime, orange, tangerine, grapefruit, raspberry, strawberry, blueberry, vanilla, black currant, chili pepper, cherry, apple, green apple, cinnamon, coffee, chocolate, cranberry, peach, pear, passion fruit, pomegranate, plum, mango, white grape, banana, pineapple, coconut, mint, melon, rose, buffalo grass, açaí, herbs (kryddat brännvin), bacon, honey, kiwifruit, feijoa,whipped cream and tea.</p>
+		</div>
+
+		<div class="scrollable" id="applemartini">
+			<img src="images/applemartini.jpg" alt="image of apple martini"/>
+			<h2>Apple Martini</h2>
+			<p>An apple martini (appletini for short) is a cocktail containing vodka and one or more of apple juice, apple cider, apple liqueur, or apple brandy. Optionally, vermouth may be included, as in a regular martini. Typically, the apple vodka is shaken or stirred with a sweet and sour mix and then strained into a cocktail glass. In its purest form, it would contain:
+<br/>10 ml (⅓ oz) sweet vermouth
+<br/>10 ml (⅓ oz) dry vermouth
+<br/>40 ml (1 ⅓ oz) top shelf vodka (or gin)
+<br/>30 ml (⅔ oz) apple juice or apple cider
+<br/><br/>A common variation of the appletini is the "Rumpletini", with a light rum in place of the vodka. The appletini can also be made with "martini bianco" in a long drink glass and filled with apple juice.</p>
+		</div>
+
+		<div class="scrollable" id="bluelagoon">
+			<img src="images/bluelagoon.jpg" alt="image of blue lagoon"/>
+			<h2>Blue Lagoon</h2>
+			<p>Blue Lagoon is a popular summer cocktail featuring blue Curaçao. One variation adds a dash of lime cordial to the mix. Also known to Benjamin Penney as a 'Fruit tingle' after the candy available in some countries (Australia). It contains vodka, Blue Curacao liqueur and lemonade. It is prepared by pouring vodka and curacao over ice in a highball glass and filling it with lemonade.</p>
+		</div>
+
+		<div class="scrollable" id="kamikaze">
+			<img src="images/kamikaze.jpg" alt="image of kamikaze"/>
+			<h2>Kamikaze</h2>
+			<p>The Kamikaze is made of equal parts vodka, triple sec and lime juice. According to the International Bartenders Association, it is served straight up in a cocktail glass. Garnish is typically a wedge or twist of lime. In Japanese, Kamikaze means "divine wind".</p>
+		</div>
+
+		<div class="scrollable" id="sexonthebeach">
+			<img src="images/sexonthebeach.jpg" alt="image of sex on the beach"/>
+			<h2>Sex on the Beach</h2>
+			<p>One of the most popular cocktails, a Sex on the Beach is a delicious fruity drink that almost anyone will like. It's a great tropical highball that is wonderful on hot summer nights or afternoons at the beach. The recipe contains vodka, peach schnapps, cranberry juice and orange juice mixed in a cocktail shaker and is served with ice. Popular substitutes include using pineapple for the orange, or Midori & Chambord instead of schnapps.</p>
+		</div>
+
+		<div class="scrollable" id="margarita">
+			<img src="images/margarita.jpg" alt="image of margarita"/>
+			<h2>Margarita</h2>
+			<p>The margarita is a Mexican cocktail consisting of tequila mixed with Cointreau or similar orange-flavoured liqueur and lime or lemon juice, often served with salt on the glass rim. It is the most common tequila-based cocktail in the United States. The drink is served shaken with ice (on the rocks), blended with ice (frozen margarita), or without ice (straight up). Other orange-flavored liqueurs that might be used include Grand Marnier, triple sec, or blue curaçao yielding the blue margarita. When sweeter fruit juices or freshly puréed fruits are added to the margarita, the amount of orange-flavored liqueur is often reduced or eliminated entirely.<br/><br/>In addition to orange-flavored liqueurs, secondary liqueurs may occasionally be added to a cocktail, including melon-flavored or black raspberry-flavored. Freshly squeezed lime juice is the key ingredient. The most common lime in the U.S. is the thick-skinned Persian lime. However, margaritas in Mexico are generally made with Mexican limes (Key limes). Alternate fruits and juice mixtures can also be used in a margarita. Fruits like mango, peach, strawberry banana, melon, or raspberry are suitable for creating this drink.</p>
+		</div>
+
+		<div class="scrollable" id="tequilasunrise">
+			<img src="images/tequilasunrise.jpg" alt="image of tequila sunrise"/>
+			<h2>Tequila Sunrise</h2>
+			<p>The Tequila Sunrise is a cocktail made in two different ways, the original (tequila, crème de cassis, lime juice and soda water) and the more popular concoction (tequila, orange juice, and grenadine syrup). The cocktail is named for the way it looks after it has been poured into a glass. The denser ingredients (cassis or grenadine) settle, creating gradations in color that mimic a sunrise. The Tequila Sunrise is considered a long drink and is usually served in a highball glass. The International Bartender Association has designated this cocktail as an IBA Official Cocktail.<br/><br/>Suggested mixing: Tequila, Ice then juice and lastly syrup. The catch is getting syrup down without mixing it. Use spoon to pour syrup onto the spoon and glass wall to guide it down with minimal mixing.</p>
+		</div>
+
+		<div class="scrollable" id="tequilashot">
+			<img src="images/tequilashot.jpg" alt="image of tequila shot"/>
+			<h2>Tequila Shot</h2>
+			<p>Tequila is a distilled beverage made from the blue agave plant, primarily in the area surrounding the city of Tequila of the western Mexican state of Jalisco. Tequila shot has its own style of drinking it. It requires gold tequila, a pinch salt and a lime wedge. The method is to hold the lime between finger and thumb, and place salt at base of thumb on same hand. Quickly lick the salt, down the tequila, and bite the lime.</p>
+		</div>
+
+		<div class="scrollable" id="longislandicedtea">
+			<img src="images/longislandicedtea.jpg" alt="image of long island iced tea"/>
+			<h2>Long Island Iced Tea</h2>
+			<p>A Long Island Iced Tea is a type of mixed drink made with, among other ingredients, vodka, gin, tequila, and rum. A popular version mixes equal parts vodka, gin, tequila, rum, and triple sec with 1½ parts sour mix and a splash of cola, which gives the drink the same amber hue as iced tea . Most variants use equal parts of the main liquors but include a smaller amount of triple sec (or other orange-flavored liqueur). Close variants often replace the sour mix with lemon juice, replace the cola with actual iced tea, or add white crème de menthe; however, most variants do not include any tea, despite the name of the drink. Some restaurants substitute brandy for the tequila. The drink has a much higher alcohol concentration (about 22 percent) than most highball drinks due to the relatively small amount of mixer. Long islands can be ordered "extra long", which further increases the alcohol to mixer ratio.</p>
+		</div>
+
+		<div class="scrollable" id="adiosmotherfucker">
+			<img src="images/adiosmotherfucker.jpg" alt="image of adios motherfucker"/>
+			<h2>Adios Mother - fucker</h2>
+			<p>The Adios Motherfucker, or AMF, is similar to a Long Island Iced Tea, but with blue curacao in place of triple sec (coloring the drink blue) and lemon-lime soda in place of cola (so as not to adulterate the blue color). The recipe includes vodka, rum, tequila, gin, Blue Curacao liqueur, sweet and sour mix and soda or cola.</p>
+		</div>
+
+		<div class="scrollable" id="swimmingpool">
+			<img src="images/swimmingpool.jpg" alt="image of swimming pool"/>
+			<h2>Swimming Pool</h2>
+			<p>The Swimming Pool cocktail is one of the best cocktails. The recipe includes a scoop of crushed ice, sweet cream, cream of coconut, pineapple juice, vodka, light rum and Blue Curacao liqueur. All the ingredients is mixed well and poured into an exotic glass. The blue curacao is made to float on top.</p>
+		</div>
+
+		<div class="scrollable" id="stoplight">
+			<img src="images/stoplight.jpg" alt="image of stoplight"/>
+			<h2>Stoplight</h2>
+			<p>The Stoplight is one of those interactive and challenging shots that are fun but powerful. The novelty of this shot is the presentation, which resembles a the colors of a stoplight, and the drinker's ability to drink all three shots, one right after the other. The best part is that it's a flavorful treat of fruits. This shooter is a great example of the pousse-cafe style, the layering is clean and clear. By the name of course, the Traffic Light, is a recipe that is designed to resemble that of a traffic light, even though the colors are a bit out of order.<br/><br/>The drink contains vodka, melon liqueur, orange juice and cranberry juice.</p>
+		</div>
+
+		<div class="scrollable" id="redheadedslut">
+			<img src="images/redheadedslut.jpg" alt="image of red headed slut"/>
+			<h2>Red Headed Slut</h2>
+			<p>This crimson shooter is one of the calmer, better tasting ones that includes Jagermeister. The peach schnapps and cranberry juice bring a sweet fruit to the herbal liqueur to balance everything out. The Redheaded Slut is a very popular shooter and one which bartenders should know.<br/><br/>A redheaded slut, also known as a ginger bitch, is typically made as either a mixed drink or a shooter. As a mixed drink the ingredients are generally poured over ice in a small cocktail glass, then stirred. As a shooter, the ingredients are mixed with ice in a cocktail shaker then strained and poured into a shot glass. A very common variation includes equal parts Jägermeister, Southern Comfort, Crown Royal, and cranberry-flavored vodka.Another variation, referred to as the Lindsay Lohan, includes a splash of Coke.</p>
+		</div>
+
+		<div class="scrollable" id="redwhiteblue">
+			<img src="images/redwhiteblue.jpg" alt="image of red, white & blue"/>
+			<h2>Red, White & Blue</h2>
+			<p>Red, White and Blue is layered shot has a great taste to it with the mix of peach, orange and pomegranate flavors of the ingredients. The key to layered shooters like this is to slowly pour the ingredients over a bar spoon in a certain order according the density of the liquid. This is a great shooter for Fourth of July celebrations.</p>
+		</div>
+
+		<div class="scrollable" id="tequilaboomboom">
+			<img src="images/tequilaboomboom.jpg" alt="image of tequila boom boom"/>
+			<h2>Tequila Boom Boom</h2>
+			<p>This tequila shot is a fun party drink. The key is to slam the drink after activating the fizz of the soda by slamming the shot glass on the bar. It is also called a Tequila Boom Boom, Tequilazo or Popper. Th key ingredients are tequila, ginger ale, lime or lemon soda and a pinch of salt.</p>
+		</div>
+
+		<div class="scrollable" id="woowoo">
+			<img src="images/woowoo.jpg" alt="image of woo woo"/>
+			<h2>Woo Woo</h2>
+			<p>A Woo Woo is an alcoholic beverage made of vodka, peach schnapps, and cranberry juice. It is typically served as a cocktail in a highball glass or can be served as a shot. It is also sometimes served in a rocks glass. The ingredients are usually shaken together with ice or stirred as preferred. A lime wedge is used as a garnish. The Georgia Peach recipe is a variation of woo woo which replaces vodka with light rum.</p>
+		</div>
+</body>
+</html>
+

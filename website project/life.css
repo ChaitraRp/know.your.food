@@ -1,0 +1,105 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#bgimage {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  margin: 0px;
+  color: #333;
+}
+
+.heading {
+  border: 1px solid #000;
+  background: rgba(0,0,0,.3);
+  color:rgb(51,153,0);
+  font-family: 'Playball', cursive;
+  text-align:center;
+  font-size:20px;
+  width:100%;
+}
+
+.menu1 {
+  float:left;
+  width:300px;
+  height:50px;
+  background: rgb(0,102,204);
+  position:absolute;
+  top:50px;
+  left:10px;
+  color:white;
+  text-align:center;
+  vertical-align:center;
+}
+
+.menu2 {
+  float:left;
+  width:300px;
+  height:50px;
+  background: rgba(0,0,0,.3);
+  position:absolute;
+  top:130px;
+  left:10px;
+  color:white;
+  text-align:center;
+  vertical-align:center;
+}
+
+.menu3 {
+  float:left;
+  width:300px;
+  height:50px;
+  background: rgba(0,0,0,.3);
+  position:absolute;
+  top:210px;
+  left:10px;
+  color:white;
+  text-align:center;
+  vertical-align:center;
+}
+
+a.main_link:active,a.main_link:visited,a.main_link:link{
+  font-weight: bold;
+  font-family: 'Lato';
+  text-decoration: none;
+  display: block;
+  width: 300px;
+  color: #FFFFFF;
+  line-height: 50px;
+}
+
+a.main_link:hover{
+	background-color:#660066;
+	color: #FFFFFF;
+}
+
+
+.wrap {
+  font-family: 'Satisfy', cursive;
+  font-size:22px;
+  background: rgba(0,0,0,.5);
+  color:#ffcc99;
+  position:relative;
+  top:-50px;
+  bottom:20px;
+  left:390px;
+  text-align:justify;
+  width:850px;
+  height:auto;
+  padding:15px;
+}

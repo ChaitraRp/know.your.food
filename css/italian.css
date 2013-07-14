@@ -1,0 +1,236 @@
+* {
+	margin: 0;
+    padding: 0;
+}
+
+html {
+	background: url(../background/italianbg1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	cursor: default;
+}
+
+header {
+	position: fixed;
+	display: block;
+	width: 100%;
+	height: 100%;
+	cursor: default;
+	top:0;
+}
+
+header h2 {
+	font-family: 'Alex Brush', cursive;
+    font-size: 90px;
+	text-shadow: 5px 5px 6px rgba(0,0,0,0.5);
+    color: #ffffff;
+	margin-left:15px;
+	float: left;
+	left: 40px;
+	position: fixed;
+}
+
+/* menu */
+
+.example {
+    position:fixed;
+    width:710px;
+    top: 0;
+	right:0;
+	float: right;
+}
+
+/* main menu styles */
+.menuholder {
+	font-family: 'Text Me One', sans-serif;
+	font-size: 25px;
+    text-align:center;
+    float:left;
+    overflow:hidden;
+    position:fixed;
+	z-index: 11;
+}
+
+.menuholder .back {
+    -moz-transition-duration:.4s;
+    -o-transition-duration:.4s;
+    -webkit-transition-duration:.4s;
+
+	border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+
+    background: url(../background/menubg.jpg);
+	z-index: 11;
+    height:0;
+    width:100%;
+}
+
+.menuholder:hover div.back {
+    height:250px;
+	z-index:11;
+}
+
+ul.menu {
+    display:block;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0 125px;
+    position:relative;
+	z-index: 11;
+}
+
+ul.menu li {
+    float:left;
+    margin:0 5px 0 0;
+}
+
+ul.menu li > a {
+	color:#eee;
+    display:block;
+    padding:0 10px;
+    text-decoration:none;
+
+    -moz-border-radius:0 0 10px 10px;
+    -o-border-radius:0 0 10px 10px;
+    -webkit-border-bottom-left-radius:10px;
+    -webkit-border-bottom-right-radius:10px;
+    border-radius:0 0 10px 10px;
+
+    transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+}
+
+ul.menu li a.red {
+    background:#a00;
+}
+ul.menu li a.green {
+    background:#aa0;
+}
+ul.menu li a.orange {
+    background:#da0;
+}
+
+.menu li div.subs {
+    left:0;
+    overflow:hidden;
+    position:absolute;
+    top:35px;
+    width:0;
+}
+.menu li div.subs dl {
+    -moz-transition-duration:.2s;
+    -o-transition-duration:.2s;
+    -webkit-transition-duration:.2s;
+    float:left;
+    overflow:hidden;
+    padding:40px 0 5% 2%;
+    width:0;
+}
+.menu dt {
+    color:#fc0;
+    font-family: 'Text Me One', sans-serif;
+	font-size: 20px;
+    font-weight:700;
+    height:20px;
+    line-height:20px;
+    margin:0;
+    padding:0 0 0 10px;
+	text-align:left;
+    white-space:nowrap;
+}
+
+.menu dd {
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+.menu dd a {
+    background:transparent;
+    color:#fff;
+	font-family: 'Text Me One', sans-serif;
+	font-size: 18px;
+    height:20px;
+    line-height:20px;
+    padding:0 0 0 10px;
+    text-align:left;
+    white-space:nowrap;
+    width:80px;
+	text-decoration: none;
+}
+.menu dd a:hover {
+    color:#ff6666;
+}
+.menu li:hover div.subs dl {
+    -moz-transition-delay:0.2s;
+    -o-transition-delay:0.2s;
+    -webkit-transition-delay:0.2s;
+    margin-right:2%;
+    width:21%;
+}
+ul.menu li:hover > a,ul.menu li > a:hover {
+    background:#aaa;
+    color:#fff;
+    padding:10px 10px 0;
+}
+ul.menu li a.red:hover,ul.menu li:hover a.red {
+    background:#c00;
+}
+ul.menu li a.orange:hover,ul.menu li:hover a.orange {
+    background:#fc0;
+}
+
+ul.menu li a.green:hover,ul.menu li:hover a.green {
+    background:#ac0;
+}
+
+.menu li:hover div.subs,.menu li a:hover div.subs {
+    width:100%;
+}
+
+.scrollable {
+	position: absolute;
+	background: rgba(0,0,0,.7);
+	width: 1000px;
+	height: auto;
+	margin: 20px auto;
+	padding: 15px;
+	top: 100px;
+	left: 170px;
+	z-index:0;
+	display: none;
+}
+
+.scrollable h2 {
+	font-family: 'Orienta', sans-serif;
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	margin-left: 25px;
+	margin-right: 10px;
+	margin-top: 40px;
+}
+
+.scrollable img {
+	height: 400px;
+    width: 600px;
+	border: 10px solid #fff;
+	color: white;
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+.scrollable p {
+	color: #fff;
+	text-align:justify;
+	padding: 70px;
+	float: left;
+	line-height: 2em;
+}
